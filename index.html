@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US dollars Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/4368669159.js" crossorigin="anonymous"></script>
+<link rel="icon" href="/logo.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Crypto converter</h1>
+    <h2><span class="h2-text">SELECT </span>XYZ$</h2>
+    <div class="selectable-text-area">
+        <div class="text-value">
+            <span id="random-number-text"></span>
+            <span>$</span>
+        </div>
+        <i class="fas fa-redo-alt" onClick="window.location.reload();"></i>
+    </div>
+    
+   
+    <div class="custom-select">
+        <select  class="styled-select" id="select-crypto" onchange="selectEventListener()">
+            <optgroup label="CURRENCY">
+                <option value = "euro">Euro(€)</option>
+                <option value = "pound">Pound(£)</option>
+                <option value = "yen">Japanese yen(¥)</option>
+            </optgroup>
+            <optgroup label="CRYPTO">
+                <option value = "bitcoin">Bitcoin</option>
+                <option value = "ether">Ether</option>
+                <option value = "XRP">XRP</option>
+                <option value = "cardano">Cardano</option>
+                <option value = "stellar">Stellar</option>
+            </optgroup>
+            
+        </select>
+    </div>
+    <h2><span class="h2-text">SELECT</span> Currency or crypto</h2>
+        <p class="api-text">Getting data for conversions from <a href="https://min-api.cryptocompare.com" target="blank">this API</a></p>
+        <p id="footer" class="api-text">by <a href="https://github.com/nickvladic/crpyto-converter" target="blank">Nick Vladič</a></p>
+
+    <div id="currency-price">
+       <!-- <h1 id="currency-price-value"></h1> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
