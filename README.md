@@ -6,3 +6,4 @@
 >3. Displaying div(in html: id="currency-price") when text is selected in div(in html: class="selectable-text-area")
 >4. Getting value from selected text in to nubmers(in js: const selectedText = window.getSelection().toString().trim())
 >5. And then multiplying and appending value to the div(in html: id="currency-price") - ( return currencenyDiv.innerHTML = (responseBtc * parseInt(selectedText)).toFixed(8) + " Bitcoin") Note: toFixed(8) means max 8 decimal numbers displaying
+>6. Adding selcet element to the html and then convrting from selected from api(for examaple : ETH)
