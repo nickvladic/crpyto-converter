@@ -1,5 +1,6 @@
 # Crpyto-converter
-## Look at the page in action (https://boring-yalow-97ef08.netlify.app/ "Crypto converter")
+## Look at the app in action https://boring-yalow-97ef08.netlify.app/
+> I delpoyed it on netlify via github
 ## The list of features on the page:
 >1. Page design with html and css
 >2. Getting data from api(in js: responeBtc...) for currencies(for example how much is 1$ in  BTC - get data from api), with using function fetch()
@@ -19,4 +20,8 @@
 ## What could be better?
 >1. Despite the fact that the site is optimized for mobile phone, the main function isn't working on phone. That's because it is build for chrome on desktop - and phone don't offer same functionality
 >> Solution: for the cryptocurrency they have selected, I would write below how much it is worth (this text would be displayed at a certain width, typical for mobile phones)
+
+## Resources
+> API : https://min-api.cryptocompare.com/
+
 
