@@ -1,4 +1,5 @@
 # Crpyto-converter
+Short description: Select a number in $ and get instant response displayed in div in currencies €, £, ¥ and crypto BTC, ETH and more.
 ## Look at the app in action https://boring-yalow-97ef08.netlify.app/
 > I delpoyed it on netlify via github
 ## The list of features on the page:
